@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 540px;
+    height: 127vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    top: 13rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28rem;
+    height: 20rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    animation: switch 1s;
+}
+
+@keyframes switch {
+    0%{
+        background-color: transparent;
+    }
+
+   
+}
+
+h1 {
+    padding-top: 4rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'Tenali Ramakrishna', cursive;
+    font-weight: 200;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+h2 {
+    width: 25rem;
+    padding-top: 2rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'sacramento', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    border-bottom-style: double;
+    border-bottom-width: 4px;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.button-1 {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    font-family: 'Tenali Ramakrishna';
+    text-decoration: none;
+}
+
+/* particles.js container */
+#particles-js {
+    margin-top: -9rem;
+    height: 127vh;
+}
