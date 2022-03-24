@@ -17,8 +17,8 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    width: 28rem;
-    height: 20rem;
+    max-width: 320px;
+    height: 14rem;
     background-color: rgba(255, 255, 255, 0.5);
     animation: switch 1s;
 }
@@ -32,23 +32,23 @@ body {
 }
 
 h1 {
-    padding-top: 4rem;
+    padding-top: 3rem;
     margin: auto;
     text-align: center;
     font-family: 'Tenali Ramakrishna', cursive;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 20px;
     background-color: transparent;
 }
 
 h2 {
-    width: 25rem;
+    width: 18rem;
     padding-top: 2rem;
     margin: auto;
     text-align: center;
     font-family: 'sacramento', cursive;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 25px;
     border-bottom-style: double;
     border-bottom-width: 4px;
 }
@@ -60,7 +60,7 @@ h3 {
 }
 
 .button-1 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     color: black;
     font-family: 'Tenali Ramakrishna';
