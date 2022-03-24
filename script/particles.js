@@ -1,4 +1,4 @@
-alert('maaf aku gabisa ngasih hadiah apa-apa buat kamu');
+alert('maaf yaa aku belum bisa kasih hadiah apa-apa buat kamu');
 alert('aku cuma bisa bikinin ini');
 alert('tapi semoga kamu suka :3');
 
